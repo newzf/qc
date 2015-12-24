@@ -5,7 +5,7 @@ import qrcode
 
 # MRNAA0039940-A00399-1540-151030-0001-000:00007200
 msg = "请认真按格式要求填写二维码相关数据"
-title = "大连崇达电子有限公司二维码专用程序"
+title = "二维码专用程序"
 fieldNames = ["产品型号", "供应商代码", "生产周期", "发货日期", "总共箱数", "每箱PCS数"]
 fieldValues = []
 fieldValues = g.multenterbox(msg, title, fieldNames)
